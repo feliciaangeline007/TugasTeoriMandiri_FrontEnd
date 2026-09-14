@@ -3,100 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kartu Profil Mahasiswa - Felicia Angeline</title>
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Tugas Mandiri 2 - Kartu Profil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-container">
-    <!-- Header Pembuka / Informasi Tugas -->
-    <header class="header-info">
-      <span class="badge">Praktik Terbimbing</span>
-      <h1 class="header-title">Kartu Profil Mahasiswa</h1>
-      <p class="header-subtitle">Tugas Mandiri 2 &bull; Desain Responsif (Mobile, Tablet, Desktop)</p>
-    </header>
-
-    <!-- Kartu Profil Responsif Utama -->
-    <main class="card-wrapper">
-      <article class="profile-card" id="profile-card">
-        <!-- Bagian Foto Profil -->
-        <div class="profile-avatar-container">
-          <div class="avatar-ring">
-            <img src="avatar.png" alt="Foto Profil Felicia Angeline" class="profile-avatar" id="profile-img">
-          </div>
-          <span class="status-indicator" title="Aktif Mahasiswa"></span>
-        </div>
-
-        <!-- Bagian Informasi & Deskripsi -->
-        <div class="profile-content">
-          <div class="profile-header">
-            <div class="role-tag">Teknik Informatika</div>
-            <h2 class="profile-name">Felicia Angeline</h2>
-            <p class="profile-id">NIM: 535250029 &bull; Universitas Tarumanagara</p>
-          </div>
-
-          <p class="profile-bio">
-            Mahasiswi Teknik Informatika yang memiliki minat mendalam pada <strong>Front-End Web Development</strong>, <strong>UI/UX Design</strong>, serta eksplorasi komunikasi visual yang adaptif dan berpusat pada pengguna.
-          </p>
-
-          <!-- Grid Keahlian / Info Tambahan -->
-          <div class="profile-meta-grid">
-            <div class="meta-item">
-              <span class="meta-label">Fokus Minat</span>
-              <span class="meta-value">Web &amp; Visual Design</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Angkatan</span>
-              <span class="meta-value">2025 / 2026</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Lokasi</span>
-              <span class="meta-value">Jakarta, Indonesia</span>
-            </div>
-          </div>
-
-          <!-- Tags Keterampilan -->
-          <div class="skills-section">
-            <span class="skill-pill">HTML5</span>
-            <span class="skill-pill">CSS3 / Grid</span>
-            <span class="skill-pill">Flexbox</span>
-            <span class="skill-pill">Responsive Design</span>
-            <span class="skill-pill">Git &amp; GitHub</span>
-          </div>
-
-          <!-- Tombol Aksi / Media Sosial -->
-          <div class="action-group">
-            <a href="https://github.com/feliciaangeline007" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-github">
-              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-              </svg>
-              <span>GitHub Profil</span>
-            </a>
-            <a href="mailto:feliciaangeline007@gmail.com" class="btn btn-secondary" id="btn-contact">
-              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-              <span>Kirim Email</span>
-            </a>
-          </div>
-        </div>
-      </article>
-    </main>
-
-    <!-- Footer Panduan Teknis & Kelengkapan Tugas -->
-    <footer class="tech-footer">
-      <div class="tech-badges">
-        <span class="tech-tag">&check; Viewport Meta Tag</span>
-        <span class="tech-tag">&check; Min. 2 Breakpoints</span>
-        <span class="tech-tag">&check; Flexbox &amp; CSS Grid</span>
-        <span class="tech-tag">&check; Responsive Layout</span>
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <img src="avatar.png" alt="Foto Profil Felicia Angeline">
       </div>
-      <p class="copyright">&copy; 2026 Felicia Angeline &bull; 535250029 &bull; Pemrograman Front-End</p>
-    </footer>
+      <div class="card-content">
+        <h2>Felicia Angeline</h2>
+        <p class="nim">NIM: 535250029</p>
+        <p class="prodi">S1 Teknik Informatika - Universitas Tarumanagara</p>
+        <p class="deskripsi">
+          Halo! Saya mahasiswi Teknik Informatika UNTAR yang tertarik mempelajari web development, khususnya bagian front-end, desain antarmuka web, serta visual kreatif.
+        </p>
+
+        <div class="skills">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">Responsive</span>
+          <span class="badge">Git</span>
+        </div>
+
+        <div class="kontak">
+          <a href="https://github.com/feliciaangeline007" target="_blank" class="btn-link">GitHub Profil</a>
+          <a href="mailto:feliciaangeline007@gmail.com" class="btn-email">Hubungi Saya</a>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
